@@ -22,6 +22,7 @@ public class C04_DataProvider {
 
         Driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));
         AmazonPage amazonPage=new AmazonPage();
+
         amazonPage.aramaKutusuElementi.sendKeys(urunIsmi+ Keys.ENTER);
 
     }
