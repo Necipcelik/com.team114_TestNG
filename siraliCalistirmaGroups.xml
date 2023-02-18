@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="secili gruplari calistirma">
+    <test name="secili gruplari calistirma">
+
+        <groups>
+            <run>
+                <include name="smoke">
+
+                </include>
+
+            </run>
+        </groups>
+        <packages>
+            <package name="tests.ders11_testNGFramework"></package>
+        </packages>
+    </test>
+</suite>
