@@ -20,6 +20,8 @@ public class C04_DataProvider {
     @Test (dataProvider = "aranacaklarListesi")
     public void test01(String urunIsmi){
 
+
+
         Driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));
         AmazonPage amazonPage=new AmazonPage();
 
